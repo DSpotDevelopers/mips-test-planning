@@ -4,4 +4,6 @@
 
 ![MIPS Main Page](https://i.imgur.com/Na1ars1.png)
 
+---
+## Index
 * [Integration Test](https://github.com/DSpotDevelopers/mips-test-planning/blob/master/integration-test-structure.md) general document
