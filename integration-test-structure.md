@@ -22,6 +22,7 @@
 * Regular Text
 
 ```md
+When entering text in the search input and hitting Enter or stopping typing it searchs and displays the MIPs containing the search text in the title or the summary.
 
 ```
 
@@ -29,26 +30,32 @@
 * Dollar Sign search `$`
 
   * `@` Search
+  The @ search for the MIPs having the entered Status
   * `#` Tags Search
+  The # search for the MIPs having the entered tag
   * `AND OR ()` Combined Operations
+  When using AND it searchs for the MIPS having both conditions true
+  When using OR it searchs for the MIPs having any of the conditions true
 
 ### Normal View
 
-* Regular View
-* Sort By Title View
-* Sort By Status
-* Pagination on Scroll
-
+* Regular View It displays the MIPs in a table using these columns: #, Title, Summary, Status and Links initially sorted by #
+* Sort By Title View Clicking the Title header sorts the list by title ascendingly or descendingly
+* Sort By Status Clicking the Status header sorts the list by title ascendingly or descendingly
+* Pagination on Scroll Initially only a subset of MIPS are loaded. Scrolling down the window loads and makes visible next MIPS of the list.
 * Component opens on MIPS where they are present
 * SubProposals opens on MIPS where they are present
 
 ---
 
 ### MipSets View
+When clicking "MIP sets" on Views menu it displays the MIPs grouped by these tags: collateral-onboarding-mipset, core-governance-mipset, core-unit-framework-mipset
 
 ### Multi-queries View
+On the menu Views->Core Units displays MIPs list using different filters criteria using query params.
 
 ## Details View
+When clicking a row of the MIPs list it opens the given MIP details view. This view contains on the left the Headings, the full content in the middle and the various fields values on the right.
 
 ## MD Viewer View
 
@@ -59,5 +66,7 @@
 * 404 View
 * Menu Interactions
 * Dark Mode Test
+When click the icon the site switchs to dark or normal mode
 * Change Language Feature
+The component allows to switch between Spanish and English language
 * News Interactions
