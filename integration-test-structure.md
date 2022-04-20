@@ -71,7 +71,7 @@ On the left content:
 
 ## MD Viewer View
 
-The MD viewer opens when clicking a MD file link. It contains on the left links to the headings of the document and the full content on the right.
+The MD viewer opens when clicking a MD file link. It contains on the left links to the headings of the document and the full content on the right. Clicking any of the headings on the left scrolls the full content (in the middle) to the corresponding section. Also, scrolling the full content down or up highlights the corresponding heading on the left.
 ## Extra
 
 * 404 View
