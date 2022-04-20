@@ -22,7 +22,7 @@
 * Regular Text
 
 ```md
-When entering text in the search input and hitting Enter it searchs and displays the MIPs containing the search text in the Title or the Summary fields. The search is case insensitive, and it works like that except for these cases: 1- when the user types MIP and a number (eg: MIP1, MIP22) 2- When the users type $ at the beginning. In the first case it searchs for MIPs whose number starts with the given number (eg:MIP5 will display MIP5, MIP50, MIP55 and so on). In the second case it will do a Special search (it's described below).
+When entering text in the search box and hitting Enter it searchs and displays the MIPs containing the search text in the Title or the Summary fields. The search is case insensitive, and it works like that except for these cases: 1- when the user types MIP and a number (eg: MIP1, MIP22) 2- When the users type $ at the beginning. In the first case it searchs for MIPs whose number starts with the given one (eg:MIP5 will display MIP5, MIP50, MIP55 and so on). In the second case it will do a Special search (it's described below).
 
 ```
 
@@ -49,22 +49,25 @@ When entering text in the search input and hitting Enter it searchs and displays
 ---
 
 ### MipSets View
-When clicking "MIP sets" on Views menu it displays the MIPs grouped by these tags: collateral-onboarding-mipset, core-governance-mipset, core-unit-framework-mipset. The view contains the same table of MIPS with an accordion component in which each of the mentioned tags is a group which is initially closed. Clicking any of the groups opens it and displays the list of the MIPs it contains using the usual columns: #, Title, Summary, Status and Links.
+When clicking "MIP sets" on Views menu it displays the MIPs grouped by these tags: collateral-onboarding-mipset, core-governance-mipset, core-unit-framework-mipset. The view contains the same table of MIPS with an accordion component in which each of the mentioned tags is a group which is initially closed. Clicking any of the groups opens it and displays the list of the MIPs it contains using the same columns: #, Title, Summary, Status and Links.
 
 ### Multi-queries View
 On the menu Views->Core Units displays MIPs list using different filters criteria using query params.
 
 ## Details View
-When clicking a row of the MIPs list it opens the given MIP details view. This view contains on the left the Headings, the full content in the middle and the various fields values on the right.
-Clicking any of the headings on the left scrolls the middle content to such heading position. Also, when the user scrolls down or up the middle content the corresponding heading is highlighted on the left content.
+When clicking a row of the MIPs list it opens the given MIP details view. This view contains on the left the Headings, the full content of the MIPin the middle and arious fields on the right.
+
+On the left content:
+
+  * Clicking any of the headings on the left scrolls the middle content to such heading position. Also, when the user scrolls down or up the middle content the corresponding heading is highlighted on the left.
 
   In the middle content:
   - Hovering over a MIP link opens a popup containing the Title and the Summary of the MIP. If the link is of a component inside a MIP then the popup contains also the Title and Summary of the component.
   
   On the right content:
    *  One of the fields is Tags which contains all the tags of the MIP, clicking one of the tags opens a list of all MIPS that contain this tag. 
-   *  Clicking the Author value opens a list of MIPs which author is that one.
-   *  The references field contains links to MD files, clicking any of them opens the MD viewer with it.
+   *  Clicking the Author value opens a list of MIPs whose author is that one.
+   *  The References field contains links to MD files, clicking any of them opens the MD viewer with it.
 
 ## MD Viewer View
 
