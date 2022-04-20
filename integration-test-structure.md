@@ -59,7 +59,7 @@ When clicking a row of the MIPs list it opens the given MIP details view. This v
 
 On the left content:
 
-  * Clicking any of the headings on the left scrolls the middle content to such heading position. Also, when the user scrolls down or up the middle content the corresponding heading is highlighted on the left.
+  * Clicking any of the headings on the left scrolls the middle content to such heading position. Also, when the user scrolls down or up the middle content the corresponding heading is highlighted on the left. Also when opening a given heading the address is updated in the address bar of the browser adding the heading id after #.
 
   In the middle content:
   - Hovering over a MIP link opens a popup containing the Title and the Summary of the MIP. If the link is of a component inside a MIP then the popup contains also the Title and Summary of the component.
@@ -67,18 +67,18 @@ On the left content:
   On the right content:
    *  One of the fields is Tags which contains all the tags of the MIP, clicking one of the tags opens a list of all MIPS that contain this tag. 
    *  Clicking the Author value opens a list of MIPs whose author is that one.
+   *  Clicking the Contributor value opens a list of MIPs whose contributor is that one.
    *  The References field contains links to MD files, clicking any of them opens the MD viewer with it.
-
 ## MD Viewer View
 
-The MD viewer opens when clicking a MD file link. It contains on the left links to the headings of the document and the full content on the right. Clicking any of the headings on the left scrolls the full content (in the middle) to the corresponding section. Also, scrolling the full content down or up highlights the corresponding heading on the left.
+The MD viewer opens when clicking a MD file link. It contains on the left links to the headings of the document and the full content on the right. Clicking any of the headings on the left scrolls the full content (in the middle) to the corresponding section. Also, scrolling the full content down or up highlights the corresponding heading on the left. Also when opening a given heading the address is updated in the address bar of the browser adding the heading id after #.
 ## Extra
 
 * 404 View
   When entering an unexistent URL the Not Found page is displayed. It contains a descriptive message and a link to the Home page.
 
 * Menu Interactions
-  The three submenus are displayed when clicking the corresponding menu items:Learn, Views and Get in Touch. In each submenu the subsubmenu appear when hovering over the corresponding submenu item. Clicking a item not containing a submenu opens the corresponding view.
+  The three submenus are displayed when clicking the corresponding menu items: Learn, Views and Get in Touch. In each submenu the subsubmenu appear when hovering over the corresponding submenu item. Clicking a item not containing a submenu opens the corresponding view.
 
 * Dark Mode Test
 When click the icon the site switchs to dark or normal mode
