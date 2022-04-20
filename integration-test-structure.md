@@ -89,3 +89,4 @@ The component allows to switch between Spanish and English language. When switch
   * In the MIPs details view: The fields labels on the right section. The headings on the left (some are translated already and some are not), the three links of the top part of the full 
   content section (GitHub, Forum and Votes).
 * News Interactions
+    * Each new must be displayed over the main table (list of MIPs) on the home page. The popup displays the icon according to the "type" field of the new (GREEN, YELLOW or RED). The fields displayed are "title" and "description". Each new is displayed again according to the time declared in its record ("timelock" field).
