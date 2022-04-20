@@ -40,8 +40,8 @@ When entering text in the search input and hitting Enter or stopping the typing 
 ### Normal View
 
 * Regular View It displays the MIPs in a table using these columns: #, Title, Summary, Status and Links initially sorted by #
-* Sort By Title View Clicking the Title header sorts the list by title ascendingly or descendingly
-* Sort By Status Clicking the Status header sorts the list by title ascendingly or descendingly
+* Sort By Title View Clicking the Title header sorts the list by Title ascendingly or descendingly
+* Sort By Status Clicking the Status header sorts the list by Status ascendingly or descendingly
 * Pagination on Scroll Initially only a subset of MIPS are loaded. Scrolling down the window loads and makes visible next MIPS of the list.
 * Component opens on MIPS where they are present
 * SubProposals opens on MIPS where they are present
