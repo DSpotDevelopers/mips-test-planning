@@ -83,5 +83,9 @@ The MD viewer opens when clicking a MD file link. It contains on the left links 
 * Dark Mode Test
 When click the icon the site switchs to dark or normal mode
 * Change Language Feature
-The component allows to switch between Spanish and English language
+The component allows to switch between Spanish and English language. When switching the language these elements are shown translated: 
+  * The MIPs table headers and the header of the table itself
+  * The menu items
+  * In the MIPs details view: The fields labels on the right section. The headings on the left (some are translated already and some are not), the three links of the top part of the full 
+  content section (GitHub, Forum and Votes).
 * News Interactions
