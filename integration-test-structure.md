@@ -22,7 +22,7 @@
 * Regular Text
 
 ```md
-When entering text in the search input and hitting Enter or stopping the typing it searchs and displays the MIPs containing the search text in the title or the summary.
+When entering text in the search input and hitting Enter or stopping the typing it searchs and displays the MIPs containing the search text in the Title or the Summary fields.
 
 ```
 
