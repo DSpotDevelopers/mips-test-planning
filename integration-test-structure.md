@@ -22,7 +22,7 @@
 * Regular Text
 
 ```md
-When entering text in the search input and hitting Enter or stopping typing it searchs and displays the MIPs containing the search text in the title or the summary.
+When entering text in the search input and hitting Enter or stopping the typing it searchs and displays the MIPs containing the search text in the title or the summary.
 
 ```
 
@@ -59,12 +59,15 @@ When clicking a row of the MIPs list it opens the given MIP details view. This v
 
 ## MD Viewer View
 
----
-
+The MD viewer opens when clicking a MD file link. It contains on the left links to the headings of the document and the full content on the right.
 ## Extra
 
 * 404 View
+  When entering an unexistent URL the Not Found page is displayed. It contains a descriptive message and a link to the Home page.
+
 * Menu Interactions
+  The three submenus are displayed when clicking the corresponding menu items:Learn, Views and Get in Touch. In each submenu the subsubmenu appear when hovering over the corresponding submenu item.
+
 * Dark Mode Test
 When click the icon the site switchs to dark or normal mode
 * Change Language Feature
