@@ -52,10 +52,10 @@ When entering text in the search box and hitting Enter it searchs and displays t
 When clicking "MIP sets" on Views menu it displays the MIPs grouped by these tags: collateral-onboarding-mipset, core-governance-mipset, core-unit-framework-mipset. The view contains the same table of MIPS with an accordion component in which each of the mentioned tags is a group which is initially closed. Clicking any of the groups opens it and displays the list of the MIPs it contains using the same columns: #, Title, Summary, Status and Links.
 
 ### Multi-queries View
-On the menu Views->Core Units displays MIPs list using different filters criteria using query params.
+On the menu Views->Core Units displays MIPs subproposals using different filters criteria using query params. The list is displayed showing on the top the name of the specific Core Unit + Subproposals. In the list there are two groupings: "Active Subproposals" and "Archive". The URL has differente query params: customViewName (The name of the Core Unit), Active_Subproposals (the conditions for the first grouping), Archive (the conditions for the second grouping), hideParents (boolean value indicating whether the MIPs are displayed with their parents), shouldBeExpandedMultiQuery (boolean value indicating if the groupings should be displayed expanded). The list displays the same column headers: #, Title, Summary, Status, Link.
 
 ## Details View
-When clicking a row of the MIPs list it opens the given MIP details view. This view contains on the left the Headings, the full content of the MIPin the middle and arious fields on the right.
+When clicking a row of the MIPs list it opens the given MIP details view. This view contains on the left the Headings, the full content of the MIP in the middle and various fields on the right.
 
 On the left content:
 
@@ -71,7 +71,7 @@ On the left content:
    *  The References field contains links to MD files, clicking any of them opens the MD viewer with it.
 ## MD Viewer View
 
-The MD viewer opens when clicking a MD file link. It contains on the left links to the headings of the document and the full content on the right. Clicking any of the headings on the left scrolls the full content (in the middle) to the corresponding section. Also, scrolling the full content down or up highlights the corresponding heading on the left. Also when opening a given heading the address is updated in the address bar of the browser adding the heading id after #.
+The MD viewer opens when clicking a MD file link. It contains on the left links to the headings of the document and the full content on the right. Clicking any of the headings on the left scrolls the full content (in the middle) to the corresponding section. Also, scrolling the full content down or up highlights the corresponding heading on the left. Besides when opening a given heading the address is updated in the address bar of the browser adding the heading id after #.
 ## Extra
 
 * 404 View
