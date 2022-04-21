@@ -19,7 +19,7 @@
 
 ### Search Bar
 
-* Regular Text (**4h**)
+* Regular Text (**5h**)
 
 ```md
 When entering text in the search box and hitting Enter it searchs and displays the MIPs containing the search text in the Title or the Summary fields. The search is case insensitive, and it works like that except for these cases: 1- when the user types MIP and a number (eg: MIP1, MIP22) 2- When the users type $ at the beginning. In the first case it searchs for MIPs whose number starts with the given one (eg:MIP5 will display MIP5, MIP50, MIP55 and so on). In the second case it will do a Special search (it's described below).
@@ -48,13 +48,13 @@ When entering text in the search box and hitting Enter it searchs and displays t
 
 ---
 
-### MipSets View (**4h**)
+### MipSets View (**5h**)
 When clicking "MIP sets" on Views menu it displays the MIPs grouped by these tags: collateral-onboarding-mipset, core-governance-mipset, core-unit-framework-mipset. The view contains the same table of MIPS with an accordion component in which each of the mentioned tags is a group which is initially closed. Clicking any of the groups opens it and displays the list of the MIPs it contains using the same columns: #, Title, Summary, Status and Links. 
 
 ### Multi-queries View (**8h**)
 On the menu Views->Core Units displays MIPs subproposals using different filters criteria using query params. The list is displayed showing on the top the name of the specific Core Unit + Subproposals. In the list there are two groupings: "Active Subproposals" and "Archive". The URL has differente query params: customViewName (The name of the Core Unit), Active_Subproposals (the conditions for the first grouping), Archive (the conditions for the second grouping), hideParents (boolean value indicating whether the MIPs are displayed with their parents), shouldBeExpandedMultiQuery (boolean value indicating if the groupings should be displayed expanded). The list displays the same column headers: #, Title, Summary, Status, Link. 
 
-## Details View (**12h**)
+## Details View (**13h**)
 When clicking a row of the MIPs list it opens the given MIP details view. This view contains on the left the Headings, the full content of the MIP in the middle and various fields on the right.
 
 On the left content:
@@ -69,7 +69,7 @@ On the left content:
    *  Clicking the Author value opens a list of MIPs whose author is that one.
    *  Clicking the Contributor value opens a list of MIPs whose contributor is that one.
    *  The References field contains links to MD files, clicking any of them opens the MD viewer with it.
-## MD Viewer View (**6h**)
+## MD Viewer View (**8h**)
 
 The MD viewer opens when clicking a MD file link. It contains on the left links to the headings of the document and the full content on the right. Clicking any of the headings on the left scrolls the full content (in the middle) to the corresponding section. Also, scrolling the full content down or up highlights the corresponding heading on the left. Besides when opening a given heading the address is updated in the address bar of the browser adding the heading id after #.
 ## Extra
@@ -82,11 +82,11 @@ The MD viewer opens when clicking a MD file link. It contains on the left links 
 
 * Dark Mode Test
 When click the icon the site switchs to dark or normal mode (**3h**)
-* Change Language Feature (**4h**)
+* Change Language Feature (**5h**)
 The component allows to switch between Spanish and English language. When switching the language these elements are shown translated: 
   * The MIPs table headers and the header of the table itself
   * The menu items
   * In the MIPs details view: The fields labels on the right section. The headings on the left (some are translated already and some are not), the three links of the top part of the full 
   content section (GitHub, Forum and Votes).
-* News Interactions (**6h**)
+* News Interactions (**8h**)
     * Each new must be displayed over the main table (list of MIPs) on the home page. The popup displays the icon according to the "type" field of the new (GREEN, YELLOW or RED). The fields displayed are "title" and "description". Each new is displayed again according to the time declared in its record ("timelock" field).
