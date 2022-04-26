@@ -6,7 +6,7 @@
 
 ## List view
 
-* Go Top Functionality
+* Go Top Functionality (**1h**) 
 
 ```md
 #1 Component Initially invisible
