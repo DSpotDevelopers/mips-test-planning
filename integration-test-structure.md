@@ -91,12 +91,12 @@ The component allows to switch between Spanish and English language. When switch
 * News Interactions (**13h**)
     * Each new must be displayed over the main table (list of MIPs) on the home page. The popup displays the icon according to the "type" field of the new (GREEN, YELLOW or RED). The fields displayed are "title" and "description". Each new is displayed again according to the time declared in its record ("timelock" field).
 
-# Screenshot Tests
-## Normal view (**5h**)
+## Screenshot Tests
+### Normal view (**5h**)
 
-## MipSets View (**8h**)
-## Multi-queries View (**8h**)
+### MipSets View (**8h**)
+### Multi-queries View (**8h**)
 
-## Details View (**5h**)
-## MD Viewer (**5h**)
+### Details View (**5h**)
+### MD Viewer (**5h**)
 
