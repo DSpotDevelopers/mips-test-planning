@@ -11,10 +11,9 @@
 ```md
 #1 Component Initially invisible
 #2 On Scroll Down Component enters from right
-#3 On Hover message is shown
-#4 On Click Scroll goes up smoo_🐮_oothly
-#5 On scoll Up Component Stay visible
-#6 On Scroll until top Component goes out to the right
+#3 On Click Scroll goes up smoo_🐮_oothly
+#4 On scoll Up Component Stay visible
+#5 On Scroll until top Component goes out to the right
 ```
 
 ### Search Bar
